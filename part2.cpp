@@ -26,10 +26,11 @@ int main()
 	double variable2{ 9 };
 
 	std::cout << "x = " << variable1 << ", y = " << variable2 << std::endl;
-	std::cout << "Ñëîæåíèå: " << Math::sum(variable1, variable2) << std::endl;
-	std::cout << "Âû÷èòàíèå: " << Math::sub(variable1, variable2) << std::endl;
-	std::cout << "Óìíîæåíèå: " << Math::mult(variable1, variable2) << std::endl;
-	std::cout << "Äåëåíèå: " << Math::div(variable1, variable2) << std::endl;
+	std::cout << "Ğ¡Ğ»Ğ¾Ğ¶ĞµĞ½Ğ¸Ğµ: " << Math::sum(variable1, variable2) << std::endl;
+	std::cout << "Ğ’Ñ‹Ñ‡Ğ¸Ñ‚Ğ°Ğ½Ğ¸Ğµ: " << Math::sub(variable1, variable2) << std::endl;
+	std::cout << "Ğ£Ğ¼Ğ½Ğ¾Ğ¶ĞµĞ½Ğ¸Ğµ: " << Math::mult(variable1, variable2) << std::endl;
+	std::cout << "Ğ”ĞµĞ»ĞµĞ½Ğ¸Ğµ: " << Math::div(variable1, variable2) << std::endl;
 
 	return EXIT_SUCCESS;
+
 }
